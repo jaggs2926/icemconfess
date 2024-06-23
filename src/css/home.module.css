@@ -1,0 +1,19 @@
+.heading {
+  font-family: "horor2";
+}
+
+@font-face {
+  font-family: "horor";
+  src: url("../../public/who\ asks\ satan.ttf");
+  font-weight: 800;
+}
+
+.boxs {
+  font-family: "horor";
+}
+
+@font-face {
+  font-family: "horor2";
+  src: url("../../public/DIEDIEDI.TTF");
+  font-weight: 800;
+}

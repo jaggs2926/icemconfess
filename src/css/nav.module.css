@@ -1,0 +1,60 @@
+.fontColorDecor {
+  animation-name: blink;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: Infinite;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  font-family: "horrar";
+  font-size: 3rem;
+}
+.deathrow {
+  font-family: "deathrow";
+}
+
+.horror {
+  font-family: "horrar";
+}
+
+.postCollect {
+  background-color: "red";
+}
+
+@font-face {
+  font-family: "deathrow";
+  src: url("../../public/DIEDIEDI.TTF");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "horrar";
+  src: url("../../public/BLOODY.TTF");
+  font-weight: 800;
+}
+
+.postCollect {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  overflow: hidden;
+  margin-left: 10%;
+}
+
+@keyframes blink {
+  0% {
+    color: grey;
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: grey;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 800px) {
+  .postCollect {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+}

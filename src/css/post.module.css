@@ -1,0 +1,78 @@
+.postMain {
+  border-color: white;
+  border-width: 1;
+  border-radius: 15px;
+  border-style: solid;
+  width: 30rem;
+  color: #a9acb0;
+  margin: 2rem 0rem 2rem 0.5rem;
+}
+
+.mainPost :hover {
+  background-color: #acaaaa;
+  cursor: pointer;
+  color: #0e0d0d;
+}
+
+.title {
+  font-size: 2rem;
+  margin-left: 2rem;
+  font-family: "deathrow";
+}
+
+.para {
+  font-size: 1.2rem;
+  word-spacing: 0.1rem;
+  width: 28rem;
+  margin-left: 1rem;
+  font-family: "deathrow";
+}
+
+.postPage {
+  background: rgb(7, 13, 2);
+  background: linear-gradient(
+    180deg,
+    rgba(7, 13, 2, 1) 0%,
+    rgba(11, 27, 0, 1) 35%,
+    rgba(39, 1, 0, 0.7372198879551821) 100%
+  );
+}
+
+@media only screen and (min-width: 400px) {
+  .postMain {
+    border-color: white;
+    border-width: 1;
+    border-radius: 15px;
+    border-style: solid;
+    width: 85%;
+    color: #a9acb0;
+    margin: 2rem 0rem 2rem 0.5rem;
+  }
+  .mainPost :hover {
+    background-color: #acaaaa;
+    cursor: pointer;
+    color: #0e0d0d;
+  }
+  .title {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    font-family: "deathrow";
+  }
+
+  .para {
+    font-size: 1.2rem;
+    word-spacing: 0.1rem;
+    width: 90%;
+    margin-left: 1rem;
+    font-family: "deathrow";
+  }
+  .postPage {
+    background: rgb(7, 13, 2);
+    background: linear-gradient(
+      180deg,
+      rgba(7, 13, 2, 1) 0%,
+      rgba(11, 27, 0, 1) 35%,
+      rgba(39, 1, 0, 0.7372198879551821) 100%
+    );
+  }
+}
