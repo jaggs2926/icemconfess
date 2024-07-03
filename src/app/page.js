@@ -9,7 +9,7 @@ function Home() {
           color: "white",
         }}
       >
-        Expose your friend and know one will know who you are 😈... No Login
+        Expose your friend and no one will know who you are 😈... No Login
         required, nothing except story is required
       </marquee>
       <div
