@@ -34,6 +34,19 @@ function Navbar() {
           >
             <h1 className={style.fontColorDecor}>GHOST OF ICEM</h1>
           </Link>
+          <h2
+            style={{
+              backgroundColor: "#03DAC5",
+              color: "white",
+              width: "18rem",
+              height: "3rem",
+              textAlign: "center",
+              paddingTop: "1rem",
+              borderRadius: "2rem",
+            }}
+          >
+            Mobile App Download{" "}
+          </h2>
           <Link
             href="/deathrow"
             replace={false}
@@ -96,6 +109,23 @@ function Navbar() {
             >
               GHOST OF ICEM
             </h1>
+          </Link>
+          <Link
+            style={{
+              all: "unset",
+              backgroundColor: "#03DAC5",
+              color: "white",
+              width: "12rem",
+              height: "3rem",
+              textAlign: "center",
+              borderRadius: "2rem",
+              fontSize: ".8rem",
+              paddingBottom: "1.6rem",
+            }}
+            href="https://anonymfile.com/BE99p/application-124fd455-21d6-4d0b-9cc7-93ba6d2ce733.apk"
+            passHref={true}
+          >
+            <h2>Mobile App Download </h2>
           </Link>
         </div>
       </MobileView>
